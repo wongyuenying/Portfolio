@@ -1,2 +1,2 @@
-### My codes for my own portfolio wesite
+### Codes for my own portfolio website
 https://angelwyy.com/
