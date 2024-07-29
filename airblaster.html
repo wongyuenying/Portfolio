@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title> Angel Wong - Portfolio </title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Angel Wong">
+    <meta name="description" content="Angel Wong's Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/saq8cwn.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="https://kit.fontawesome.com/6ae0f814b3.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="pageContent">
+        <header id="header">
+            <div class="container">
+                <div class="navigation fixed-top">
+                    <div class="navigation-items">
+                        <a href="index.html">
+                            <img src="images/logo.png" id="logo" />
+                        </a>
+                        <div class="navigation-wrap">
+                            <button class="menu-toggle" onclick="expandNavbar()">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <nav class="nav-menu">
+                                <a href="index.html" class="navigation-item">HOME</a>
+                                <a href="About.html" class="navigation-item">ABOUT</a>
+                                <a href="index.html#Work" class="navigation-item active">WORK</a>
+                                <a href="Contact.html" class="navigation-item">CONTACT</a>
+
+                            </nav>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="Airblaster-section">
+            <section id="AirBlaster">
+                <div class="padding-global">
+                    <div class="container">
+                        <div class="intro-container fade-in">
+                            <p class="title">Air Blaster 9000 - VR Controller Prototype</p>
+                            <p class="sub-title">VR Controller Design  •  UX Design  •  User Research  •  Prototyping
+                                 •  Usability Testing
+                            </p>
+                            <img src="images/AirBlaster/intro.png" id="intro_photo">
+                        </div>
+                        <div class="project-overview ">
+                            <p class="title fade-in"> Project Overview</p>
+                            <div class="project-detail-container row">
+                                <div class="row">
+                                    <div class="col fade-in">
+                                        <p class="overview-title">Problem</p>
+                                        <p>VR technology currently lacks the ability to simulate tactile sensations like
+                                            stiffness, weight, and texture, limiting the immersive experience. <span
+                                                style="font-weight: 600;">The absence of haptic feedback </span> in
+                                            virtual
+                                            interactions reduces user immersion and engagement.</p>
+                                    </div>
+                                    <div class="col fade-in">
+                                        <p class="overview-title">Challenge</p>
+                                        <p>Designing a VR controller system that enhances haptic feedback in <span
+                                                style="font-weight: 600;">FPS games,</span> increasing user immersion
+                                            and
+                                            engagement, while ensuring full compatibility with Meta Quest 2.</p>
+                                    </div>
+                                    <div class="col fade-in">
+                                        <p style="font-weight: 600; color: var(--WAKENOW_PRIMARY);">Solution</p>
+                                        <p>The Air Blaster 9000, a prototype VR controller designed with <span
+                                                style="font-weight: 600;">an air compressor
+                                                system, heat pad, and vibration</span> to provide pneumatic, thermal,
+                                            and tactile
+                                            feedback. It utilizes Arduino Uno and Unity for implementation. </p>
+                                    </div>
+                                </div>
+                                <div class="row fade-in">
+                                    <div class="col">
+                                        <p class="overview-title">Timeline</p>
+                                        <div class="overview-text">
+                                            <p>Duration: 10 weeks</p>
+                                            <p> Date: Mar 23 - May 23</p>
+
+                                        </div>
+                                        <p></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="overview-title">Team Members</p>
+                                        <div class="overview-text">
+                                            <p>Jonathan Thai</p>
+                                            <p>Michael Hannon</p>
+                                            <p>Piya Mody</p>
+                                            <p>Puja Shome</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="large-section">
+                            <p class="title fade-in"> Ideation</p>
+                            <div class="small-section fade-in">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="section-title">Objectives</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>To address the critical gap in VR technology—the lack of haptic feedback, I
+                                            brainstormed various ideas to simulate different sensations that users might
+                                            encounter in various in-game situations. Below are some sketches created
+                                            during this ideation process.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="images/AirBlaster/ideation.png" id="ideation" class="fade-in">
+                            <div class="small-section fade-in">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="section-title">Results</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>After collaborative sessions with my teammates, who also contributed their
+                                            own sketches, we decided to move forward with the <span
+                                                style="font-weight: 600;">gun-recoil concept.</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="large-section">
+                            <p class="title fade-in"> Design</p>
+                            <div class="small-section fade-in">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="section-title">Original System Design</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>The original plan for the Air Blaster 9000 was to simulate a full body
+                                            recoil, simulating the feeling of each gun shot. However, due to:</p>
+                                        <ul>
+                                            <li>Lack of air pressure provided by the compressor</li>
+                                            <li>The need of purchasing more components</li>
+                                            <li>Limited budget given</li>
+                                        </ul>
+                                        <p></p>
+                                        <p>To accurately mimic this feedback was out of the current monetary scope.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-section fade-in">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="section-title">The New System Design</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>Learning from the limits of the compressor, different methods of providing
+                                            the feedback of shooting a gun were tested. From here, the design shifted
+                                            from providing only pneumatic whole-body realistic feedback to <span
+                                                style="font-weight: 600;">area-specific
+                                                integrated feedback.</span> </p>
+                                        <p>The new design incorporates 3 distinct haptic feedback system which includes
+                                            <span style="font-weight: 600;">pneumatic, thermal, and tactile
+                                                feedback.</span> The full setup and prototype are
+                                            as shown below:
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-section fade-in">
+                                <div class="design-container">
+                                    <div class="col">
+                                        <div class="design-image-container">
+                                            <img src="images/AirBlaster/design1.png" class=airblaster-design-images>
+                                            <p>Full setup</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="design-image-container">
+                                            <img src="images/AirBlaster/design2.png" class=airblaster-design-images>
+                                            <p>Prototype</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-section fade-in">
+                                <div class="row">
+                                    <div class="col-8 left-col ">
+                                        <div>
+                                            <p class="section-title"><span class="big-number">01. </span> Pneumatic
+                                                System
+                                                Design</p>
+                                            <p>The pneumatic feedback is actuated in the form of wind blowing on the
+                                                back of the user’s hand when the trigger is pressed. This simulates the
+                                                movement of the hands from the recoil rather than the physical recoil
+                                                itself, furthered by the swiping motion of the wind as its nozzle is
+                                                mounted to a servo motor arm.
+                                            </p>
+                                            <p>
+                                                The pneumatic system is based on an air compressor system controlled
+                                                through the Arduino Uno in combination with a servo motor. The speed of
+                                                the air compressor is controlled via an analogue pin, with the air
+                                                compressor running slower with smaller guns in comparison or larger
+                                                ones.
+                                            </p>
+                                            <p>
+                                                The nozzle is mounted to the arm of a continuously moving servomotor,
+                                                ensuring the air is not only focused on one point on the back of the
+                                                user's hand.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col right-align">
+                                        <div class="methodologyPhotos ">
+                                            <img src="images/AirBlaster/pneumatic.png" id="pneumatic">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-section fade-in">
+                                <div class="design-container">
+                                    <div class="col">
+                                        <div class="design-image-container">
+                                            <img src="images/AirBlaster/smallgun.png" class=guns>
+                                            <p>A smaller gun</p>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="design-image-container">
+                                            <img src="images/AirBlaster/largegun.png" class=guns>
+                                            <p>A larger gun</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="small-section fade-in">
+                                <div class="row">
+                                    <div class="col-8 left-col ">
+                                        <div>
+                                            <p class="section-title"><span class="big-number">02. </span> Thermal System
+                                                Design</p>
+                                            <p>The thermal feedback provides heat to the palm of the user’s hand,
+                                                warming to higher temperatures the more the user shoots.
+                                            </p>
+                                            <p>
+                                                The thermal system is based on a heating pad attached onto the Quest 2
+                                                controller mount. It is mounted to the inside of the right hand,
+                                                providing thermal feedback onto the palm of the user. This simulates the
+                                                slow heating of the gun and quick cool down, heating up to higher
+                                                temperatures and for longer times according to the frequency with which
+                                                the user is shooting in the VR simulation and the current gun type
+                                                selected.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="col right-align">
+                                        <div class="methodologyPhotos ">
+                                            <img src="images/AirBlaster/thermal.png" id="thermal">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small-section fade-in">
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="section-title"><span class="big-number">03. </span> Tactile System
+                                            Design</p>
+                                    </div>
+                                    <div class="col-7">
+                                        <p>The tactile system is based on the vibration motors within the Quest 2
+                                            controllers. The vibration changes in intensity and duration of vibration
+                                            according to the type of gun currently being used in the Unity simulation.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="large-section">
+                                <p class="title fade-in"> Prototyping</p>
+                                <div class="small-section fade-in">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="section-title"> System Implementation</p>
+                                        </div>
+                                        <div class="col-7">
+                                            <p>Implementation of the Air Blaster 9000 was based on the Meta Quest 2
+                                                headset and controllers, Arduino Uno for actuation, and Unity to create
+                                                VR environments. Each of the haptic systems feed through the Arduino
+                                                with Unity code, Arduino code, and Quest controller actions
+                                                synchronising all feedback.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="setup-container fade-in">
+                                        <img src="images/AirBlaster/full-setup.png" id="full-setup">
+                                    </div>
+                                </div>
+                                <div class="small-section fade-in">
+                                    <div class="row">
+                                        <div class="col airblaster-implementaion">
+                                            <div class="row hide-row">
+                                                <div class="col big-number-column">
+                                                    <p><span class="big-number">01. </span>
+                                                </div>
+                                                <div class="col">
+                                                    <p class="section-title"> Pneumatic system
+                                                        implementation</p>
+                                                </div>
+                                                </p>
+                                            </div>
+                                            <div class="show-row">
+                                                <div class="col">
+                                                    <p class="section-title"><span class="big-number">01. </span>
+                                                        Pneumatic
+                                                        system
+                                                        implementation</p>
+                                                </div>
+                                            </div>
+                                            <div class="row implmentaion-image-conttainer">
+                                                <img src="images/AirBlaster/implementation1.png" id="implementation1" />
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <p>A MOSFET transistor (IRF540) and general-purpose amplifier (PN2222A) were
+                                                used to turn the air compressor on and off at high speeds, ensuring that
+                                                it
+                                                works in synchronisation with the pressing of the trigger in VR. A heat
+                                                sink
+                                                was also attached to the MOSFET to prevent overheating from high
+                                                voltage.
+                                                This was originally a relay switch; however, it did not turn on and off
+                                                at
+                                                the speed necessary.
+                                            </p>
+                                            <p>While the full ability of the air compressor is 150 PSI, we estimate the
+                                                maximal pressure of the system is currently around 40 PSI due to a lower
+                                                current, 3A, where the original air compressor system is based off, 10A,
+                                                while still at the full 12V. Silicone tubing is attached to the inbuilt
+                                                tubing of the air compressor, leading to the nozzle. The nozzle is
+                                                mounted
+                                                to a servo motor which is connected to the Arduino via a simple circuit,
+                                                turning on and off with the start up and ending of the system.</p>
+                                            <p></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-section fade-in">
+                                    <div class="row">
+                                        <div class="col-8 left-col ">
+                                            <div>
+                                                <p class="section-title"><span class="big-number">02. </span> Thermal
+                                                    system implementation</p>
+
+                                                <p>
+                                                    A simple 5V relay switch (ISO9002) was used to control the heating
+                                                    pad as quick on/off switching was not required. An Adafruit electric
+                                                    heating pad (HF0515) measuring 14cm x 5cm working with 5-12V was
+                                                    used, with stainless steel fibres heating up throughout to provide
+                                                    whole-hand sensation. A diode was soldered between the ground and
+                                                    power wires, ensuring the current ran only in one direction.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                        <div class="col right-align">
+                                            <div class="methodologyPhotos ">
+                                                <img src="images/AirBlaster/implementation2.png" id="implementation2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="small-section fade-in">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="section-title"><span class="big-number">03. </span> Tactile
+                                                feedback implementation</p>
+                                        </div>
+                                        <div class="col-7">
+                                            <p>Tactile feedback was implemented through code, making use of the inbuilt
+                                                vibration motors in the Quest 2 controllers.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="large-section">
+                                <p class="title fade-in"> Launch</p>
+                                <div class="small-section fade-in">
+                                    <div class="row launch-section">
+                                        <div class="col">
+                                            <div class="row">
+                                                <p class="section-title">Demo Application</p>
+                                            </div>
+                                            <div class="demo-container">
+                                                <div class="row">
+                                                    <img src="images/AirBlaster/unity.png" alt="unity" id="unity">
+                                                </div>
+                                                <div class="row">
+                                                    <img src="images/AirBlaster/headset.png" alt="unity" id="headset">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <p>To utilise our design, a simple gun range style virtual environment was
+                                                created in <span style="font-weight: 600;"> Unity. </span> The gun range
+                                                included three simple targets with two
+                                                different guns to use: <span style="font-weight: 600;">a smaller pistol
+                                                    style gun </span> and <span style="font-weight: 600;">a larger rifle
+                                                    style gun. </span> When pulling the controller trigger, users are
+                                                able to shoot
+                                                their gun to move and destroy the targets. When the guns are shot, the
+                                                Unity game communicates with the Arduino using serial communication to
+                                                activate the heat pad and the air compressor.
+                                            </p>
+                                            <p>When using the smaller gun, the user experiences a shorter and weaker
+                                                burst of air and vibration as opposed to the larger gun which offers a
+                                                longer and stronger burst of air and vibration. After shooting the gun
+                                                for a short period of time, the users will also feel the controller
+                                                begin to get significantly warmer. With the combined virtual environment
+                                                and sounds along with our designs feedback, users are able to experience
+                                                how our design could be implemented into a gaming context.</p>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="container">
+                        <a href="index.html">
+                            <img src="images/logo.png" id="logo" />
+                        </a>
+                        <div class="row">
+                            <div class="col">
+                                <p style="margin: 0;">angelwyy1021@gmail.com</p>
+                            </div>
+                            <div class="col footer-nav">
+                                <a href="#About" class="navigation-item footer-about">ABOUT</a>
+                                <a href="index.html#Work" class="navigation-item">WORK</a>
+                                <a href="Contact.html" class="navigation-item">CONTACT</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col footer-icon">
+                                <a href="https://www.linkedin.com/in/angelwongyuenying/" target="_blank">
+                                    <i class="fa-brands fa-linkedin fa-2xl" style="padding-left: 0;"></i>
+                                </a>
+                                <a href="mailto:angelwyy1021@gmail.com" target="_blank">
+                                    <i class="fa-regular fa-envelope fa-2xl"></i>
+                                </a>
+                                <a href="https://github.com/wongyuenying" target="_blank">
+                                    <i class="fa-brands fa-github fa-2xl"></i>
+                                </a>
+                            </div>
+                            <div class="col year">
+                                <p> @ 2024 Angel Wong</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./angelwyy.js"></script>
+</body>
+
+</html>
